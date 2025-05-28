@@ -7,7 +7,7 @@
         {
             try {
                 $serveur = "localhost:8889";
-                $bdd = "ppe_leger";
+                $bdd = "ppe_fusion";
                 $user = "root";
                 $mdp = "root";
                 $this->unPdo = new PDO("mysql:host=" . $serveur . ";dbname=" . $bdd, $user, $mdp);
